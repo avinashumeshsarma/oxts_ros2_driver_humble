@@ -3,7 +3,7 @@ oxts_ins:
 #===============================================================================
     # Configure ROS messages to be published by the node.
     ## Frames
-    frame_id            : "oxts_link"
+    frame_id            : "imu_link"
     ## Configure individual topics
     ## Rates must be factors of the ncom_rate, configured above.
     ## Rates are in Hz. 0 Hz => Message will not be published

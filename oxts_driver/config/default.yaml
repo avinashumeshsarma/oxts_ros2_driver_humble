@@ -3,14 +3,14 @@ oxts_driver:
 #===============================================================================
     # INS configuration (set up to match the unit)
     ## Unit IP address
-    unit_ip: 192.168.25.44
+    unit_ip: 192.168.2.50
     ## Unit Port (3000 unless intentionally configured otherwise on the INS)
     unit_port: 3000
     ## Path of NCOM to replay (optional, must be absolute path)
     # ncom: /default/ncom/path.ncom 
     ## Topic to publish NCOM messages to
     ncom_topic: "ncom"
-    topic_prefix: "ins"
+    topic_prefix: "oxts"
 
 #===============================================================================
     ## Rate is in Hz. 0 Hz => Message will not be published
